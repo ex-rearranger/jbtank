@@ -1,0 +1,273 @@
+#page-header {
+  -webkit-animation: none;
+  -moz-animation: none;
+  -o-animation: none;
+  -ms-animation: none;
+  animation: none;
+}
+#content-inner,
+#footer {
+  -webkit-animation: none;
+  -moz-animation: none;
+  -o-animation: none;
+  -ms-animation: none;
+  animation: none;
+}
+#nav.show {
+  -webkit-animation: none;
+  -moz-animation: none;
+  -o-animation: none;
+  -ms-animation: none;
+  animation: none;
+}
+#page-header.nav-visible #nav {
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform: translate3d(0, 100%, 0);
+  -moz-transform: translate3d(0, 100%, 0);
+  -o-transform: translate3d(0, 100%, 0);
+  -ms-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+}
+
+
+/* nav */
+#nav {
+  position: fixed;
+  font-size: 1.4em;
+}
+@media screen and (max-width: 900px) {
+  #nav {
+    padding: 0 20px;
+  }
+}
+#nav #blog_name #site-name img {
+  height: 33px;
+  display: block;
+  /*margin-top: 3px;*/
+}
+#page-header.full_page:not(.nav-fixed) #nav #blog_name #site-name img {
+  display: none;
+}
+#nav .menus_items .menus_item:hover > a.group > i:first-child {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+#nav .menus_items .menus_item > a.group > i:first-child {
+  padding: 4px;
+  -webkit-transition: -webkit-transform 0.3s;
+  -moz-transition: -moz-transform 0.3s;
+  -o-transition: -o-transform 0.3s;
+  -ms-transition: -ms-transform 0.3s;
+  transition: transform 0.3s;
+}
+
+#page-header #scroll-down .scroll-down-effects {
+  font-size: 60px;
+}
+#page-header #scroll-down {
+  padding-top: 100vh;
+}
+
+#content-inner {
+  min-height: calc(100vh - 148px);
+  padding-top: 80px;
+}
+
+/* aside & sidebar */
+#page-header.nav-visible + .layout > .aside-content > .sticky_layout {
+  top: 80px;
+}
+#page-header.not-top-img {
+  margin-bottom: 0px;
+  height: 0px;
+  background: 0;
+}
+#aside-content > .sticky_layout > .card-widget {
+  margin-top: 20px;
+}
+#aside-content > .sticky_layout > .card-widget:first-child {
+  margin-top: 0px;
+}
+@media screen and (max-width: 768px) {
+  #aside-content .card-info {
+    display: none;
+  }
+}
+#aside-content .card-info .avatar-img {
+  border: none;
+}
+.avatar-img img {
+  -webkit-transition: filter 375ms ease-in 0.2s;
+  -moz-transition: filter 375ms ease-in 0.2s;
+  -o-transition: filter 375ms ease-in 0.2s;
+  -ms-transition: filter 375ms ease-in 0.2s;
+   transition: filter 375ms ease-in 0.2s;
+}
+#aside-content .card-info .author-info__description {
+  margin-top: -0.42em;
+  line-height: 1.4;
+  word-break: keep-all;
+}
+.cardHover,
+.error404 #error-wrap .error-content,
+.layout > div:first-child:not(.recent-posts),
+#recent-posts > .recent-post-item,
+#aside-content .card-widget,
+.layout > .recent-posts .pagination > * {
+  border-radius: 3px;
+}
+@media screen and (min-width: 901px) and (max-width: 1024px) {
+  #aside-content .card-info .author-info__name {
+    font-size: 2.1vw;
+  }
+}
+#sidebar #sidebar-menus > .avatar-img {
+  margin: 40px auto 20px;
+}
+#sidebar .author-info__name {
+font-size: 1.6em;
+font-weight: 700;
+margin: -13px 0 -6px;
+}
+#aside-content .card-info #card-info-btn span {
+  padding-left: 7px;
+}
+
+/* kakao-map */
+#aside-content #kakao-link ,
+#aside-content #naver-link {
+  display: block;
+  background-color: #eee;
+  color: #999;
+  text-align: center;
+  line-height: 2;
+  margin-top: 4px;
+}
+#aside-content #kakao-link:hover ,
+#aside-content #naver-link:hover {
+  background-color: #a2c8f1;
+  color: #fff;
+}
+#aside-content #naver-link:active ,
+#aside-content #kakao-link:active {
+  background-color: #ffbfc9;
+  color: #fff;
+}
+
+/* pagination */
+#pagination .pagination {
+  margin-bottom: 20px;
+}
+
+/* footer */
+#footer {
+  padding: 20px 30px;
+}
+#footer:before {
+    content: none;
+}
+#footer-wrap {
+  padding: 0;
+  line-height: 1.8;
+}
+#footer-wrap .footer_custom_text {
+  text-align: left;
+  color: #818181;
+  word-break: break-word;
+}
+#footer-wrap .footer_custom_text span {
+  white-space: nowrap;
+}
+#footer-wrap .framework-info {
+  position: absolute;
+  bottom: -10px;
+  right: 0px;
+  color: #c9c9c9;
+}
+#footer-wrap .framework-info a {
+  color: #c9c9c9;
+}
+
+/* rightside */
+#rightside {
+  position: fixed;
+  right: -28px;
+  bottom: 10px;
+}
+
+/* page */
+.layout > div:first-child:not(.recent-posts) {
+  padding: 50px 40px;
+}
+@media screen and (max-width: 900px) {
+  .layout > div:first-child {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .layout > div:first-child:not(.recent-posts) {
+    padding: 36px 14px;
+  }
+}
+#page h1.page-title {
+margin: -12px 0 15px;
+}
+
+/* page - link*/
+#article-container .flink .flink-list > .flink-list-item {
+  height: auto;
+}
+#article-container .flink .flink-list > .flink-list-item:before {
+  -webkit-transition: -webkit-transform 0.2s ease-out;
+  -moz-transition: -moz-transform 0.2s ease-out;
+  -o-transition: -o-transform 0.2s ease-out;
+  -ms-transition: -ms-transform 0.2s ease-out;
+  transition: transform 0.2s ease-out;
+}
+#article-container .flink .flink-list > .flink-list-item a .flink-item-icon {
+  float: none;
+  border-radius: 0px;
+  width: auto;
+}
+#article-container .flink .flink-list > .flink-list-item a .flink-item-icon img {
+  object-fit: contain;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+}
+#article-container .flink .flink-list > .flink-list-item a .flink-item-name {
+  padding: 3px 10px 9px;
+}
+#article-container .flink .flink-list > .flink-list-item a .flink-item-name {
+  height: 33px;
+}
+#article-container .flink .flink-list > .flink-list-item a .flink-item-desc {
+  height: auto;
+  padding: 0;
+}
+
+/* post */
+#article-container .tabs > .tab-contents .tab-item-content {
+  padding: 24px;
+}
+@media screen and (max-width: 768px) {
+  #article-container .tabs > .tab-contents .tab-item-content {
+    padding: 14px;
+  }
+}
+#aside-content #card-toc .toc-percentage {
+  display: none;
+}
+
+a:focus {
+  outline: none;
+}

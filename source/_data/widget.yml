@@ -1,0 +1,39 @@
+top:
+  - class_name: user-map
+    id_name: user-map
+    name: 터미널 위치
+    icon: fas fa-map-marked-alt
+    order:
+    html: '
+    <div style="position: absolute;z-index: 2;font-weight: 700;padding: 5px 10px; font-size: 13px;
+      background: #eeeeeecc; border: solid 1px #cccccccc;min-width: 152px;max-width: 75%;word-break: keep-all;line-height: 1.4;">중부고속도로 음성IC 5분 거리</div>
+    <div id="map" style="width:100%;height:300px;"></div>
+	<a id="kakao-link" target="_blank" rel="noopener" href="https://map.kakao.com/?itemId=8070143&q=중부탱크터미널">카카오맵에서 열기</a>
+    <a id="naver-link" target="_blank" rel="noopener" href="https://map.naver.com/v5/entry/place/17760664">네이버 지도에서 열기</a>
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=d2d57ee9cff9917887f3630b30650876"></script>
+	<script>
+      var mapContainer = document.getElementById("map"),
+      mapOption = {
+          center: new kakao.maps.LatLng(36.9778603,127.4442646),
+          level: 8
+      };
+      var map = new kakao.maps.Map(mapContainer, mapOption);
+      var marker = new kakao.maps.Marker({
+        position : new kakao.maps.LatLng(36.9778603,127.4442646),
+        title: "중부탱크터미널",
+        clickable: true
+      });
+      marker.setMap(map);
+      // var mapTypeControl = new kakao.maps.MapTypeControl();
+      // map.addControl(mapTypeControl, kakao.maps.ControlPosition.TOPRIGHT);
+      // var zoomControl = new kakao.maps.ZoomControl();
+      // map.addControl(zoomControl, kakao.maps.ControlPosition.RIGHT);
+	</script>
+	'
+
+bottom:
+#  - class_name:
+#    id_name:
+#    name:
+#    icon:
+#    html:

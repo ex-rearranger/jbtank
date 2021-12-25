@@ -1,0 +1,32 @@
+- class_name:
+  class_desc:
+  link_list:
+    - name: 한국화학물질관리협회
+      link: http://www.kcma.or.kr/main/main.asp
+      avatar: http://www.kcma.or.kr/images/inc/logo.svg
+      descr:
+    - name: 소방청
+      link: https://www.nfa.go.kr/nfa/
+      avatar: https://www.nfa.go.kr/nfa/common/images/common/logo.jpg
+      descr:
+    - name: 국토교통부
+      link: http://www.molit.go.kr/portal.do
+      avatar: http://www.molit.go.kr/images/www2021/logo/logo.png
+      descr:
+    - name: 환경부
+      link: http://me.go.kr/home/web/main.do
+      avatar: http://me.go.kr/images/home/main/2018/logo.png
+      descr:
+    - name: 국가교통정보센터
+      link: https://www.its.go.kr/map/main
+      avatar: https://www.its.go.kr/css/images/common/logo-86064063004ad212872363cceedddafa.png
+      descr:
+
+
+#- class_name: test link
+#  class_desc: hello world!
+#  link_list:
+#    - name: Hexo
+#      link: https://hexo.io/
+#      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+#      descr: Hexo is a fast, simple & powerful blog framework powered by Node.js.
