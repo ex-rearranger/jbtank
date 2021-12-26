@@ -72,15 +72,15 @@ katex:
 
 # Nav Image
 logo:
-  wideDark: /img/jbtank-logo-wide.png
-  wideLight: /img/jbtank-logo-wide-white.png
+  wideDark: /img/jbtank-logo-wide-66px.png
+  wideLight: /img/jbtank-logo-wide-white-66px.png
 
 # Favicon（網站圖標）
-favicon: /img/jbtank-logo.png
+favicon: /img/jbtank-favicon-128.png
 
 # Avatar (頭像)
 avatar:
-  img: /img/jbtank-logo.png
+  img: /img/jbtank-logo-220px.png
   effect: false
 
 # Disable all banner image
@@ -116,7 +116,7 @@ category_per_img:
 cover:
   # display the cover or not (是否顯示文章封面)
   index_enable: true
-  aside_enable: false
+  aside_enable: true
   archives_enable: true
   # the position of cover in home page (封面顯示的位置)
   # left/right/both
@@ -163,7 +163,7 @@ wordcount:
 # 3: auto_excerpt (default)
 # false: do not show the article introduction
 index_post_content:
-  method: 3
+  method: 2
   length: 500 # if you set method to 2 or 3, the length need to config
 
 # Post
@@ -452,9 +452,9 @@ site_verification:
 # Theme color for customize
 # Notice: color value must in double quotes like "#000" or may cause error!
 
-# theme_color:
-#   enable: true
-#   main: "#49B1F5"
+ theme_color:
+   enable: true
+   main: "#1A3F9D" #"#49B1F5"
 #   paginator: "#00c4b6"
 #   button_hover: "#FF7242"
 #   text_selection: "#00c4b6"
@@ -464,8 +464,8 @@ site_verification:
 #   code_foreground: "#F47466"
 #   code_background: "rgba(27, 31, 35, .05)"
 #   toc_color: "#00c4b6"
-#   blockquote_padding_color: "#49b1f5"
-#   blockquote_background_color: "#49b1f5"
+   blockquote_padding_color: "#1A3F9D" #"#49B1F5"
+   blockquote_background_color: "#1A3F9D" #"#49B1F5"
 
 # The top_img settings of home page
 # default: top img - full screen, site info - middle (默認top_img全屏，site_info在中間)
@@ -560,8 +560,8 @@ display_mode: light
 beautify:
   enable: true
   field: site # site/post
-  title-prefix-icon: '\f0c1'
-  title-prefix-icon-color: '#F47466'
+  title-prefix-icon: '\f48b'
+  title-prefix-icon-color: '#ff7242'
 
 # Global font settings
 # Don't modify the following settings unless you know how they work (非必要不要修改)
@@ -579,7 +579,7 @@ blog_title_font:
 
 # The setting of divider icon (水平分隔線圖標設置)
 hr_icon:
-  enable: true
+  enable: false
   icon: # the unicode value of Font Awesome icon, such as '\3423'
   icon-top:
 
@@ -792,9 +792,9 @@ pangu:
 # Lazyload (圖片懶加載)
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
-  enable: false
+  enable: true
   field: site # site/post
-  placeholder:
+  placeholder: /img/Spin-1s-512px.png
   blur: false
 
 # PWA

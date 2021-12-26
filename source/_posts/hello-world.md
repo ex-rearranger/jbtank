@@ -1,40 +1,38 @@
 ---
 title: 테스트
 top_img: false
+cover: /img/KakaoTalk_Photo_2021-12-26-04-07-07-2.jpeg
 category: test
+description: 공지사항 테스트입니다.
+
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
-## Quick Start
+# 첫 번째 단락
 
-### Create a new post
+## 두 번째 단락
 
-``` bash
-$ hexo new "My New Post"
-```
+### 세 번째 단락
 
-More info: [Writing](https://hexo.io/docs/writing.html)
+#### 네 번째 단락
 
-### Run server
+##### 다섯 번째 단락
 
-``` bash
-$ hexo server
-```
+###### 여섯 번째 단락
 
-More info: [Server](https://hexo.io/docs/server.html)
+<hr> 
 
-### Generate static files
+- 순서가 없는 목차
+    - 순서가 없는 목차
+    - 순서가 없는 목차
+- 순서가 없는 목차
+    - 순서가 없는 목차
+        - 순서가 없는 목차
+    
 
-``` bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+1. 순서가 있는 목차
+    - 순서가 없는 목차
+    - 순서가 없는 목차
+2. 순서가 있는 목차
+    1. 순서가 있는 목차
+    2. 순서가 있는 목차
+    

@@ -136,6 +136,20 @@ font-size: 1.6em;
 font-weight: 700;
 margin: -13px 0 -6px;
 }
+
+#sidebar .fa-truck:before {
+  margin-left: -2px;
+}
+#sidebar .fa-map-marker-alt:before {
+  margin-left: 2px;
+}
+#sidebar .fa-chevron-down:before {
+  margin-left: 1px;
+}
+#sidebar .fa-images:before {
+  margin-left: -1px;
+}
+
 #aside-content .card-info #card-info-btn span {
   padding-left: 7px;
 }
@@ -276,4 +290,48 @@ margin: -12px 0 15px;
 
 a:focus {
   outline: none;
+}
+
+#article-container h1:before {
+  margin-left: -30px;
+}
+#article-container h2:before {
+  margin-left: -28px;
+}
+#article-container h3:before {
+  margin-left: -26px;
+}
+#article-container h4:before {
+  margin-left: -24px;
+}
+#article-container h5:before {
+  margin-left: -22px;
+}
+#article-container h6:before {
+  margin-left: -22px;
+}
+#article-container h1:before,
+#article-container h2:before,
+#article-container h3:before,
+#article-container h4:before,
+#article-container h5:before,
+#article-container h6:before {
+  top: calc(50% - 8px);
+}
+
+hr {
+margin: 20px auto;
+border: none;
+border-top: 3px dashed var(--hr-border);
+}
+#article-container ul > li {
+  list-style-type: disc;
+}
+#article-container ol > li > ul > li ,
+#article-container ul > li > ul > li {
+  list-style-type: circle;
+}
+#article-container ol > li > ol > li ,
+#article-container ul > li > ol > li {
+  list-style-type: lower-alpha;
 }

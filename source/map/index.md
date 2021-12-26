@@ -20,17 +20,33 @@ highlight_shrink:
 <div id="map" style="width:100%;height:600px;max-height:50vh;"></div>
 
 
-<table>
+<table id="pc-map">
 <tbody>
 <tr>
 <td style="padding: 0; width: 60%;">
 
 ![](/img/maps.jpg)</td>
-<td style="padding: 20px;font-size: 1.1em">
+<td style="padding: 20px;font-size: 1.05em">
 중부고속도로 음성IC 진출 <br>
--> 광혜원 방향 우회전 1.5Km 직진 <br>
--> 만승교사거리 진천 방향 좌회전 <br>
--> 300m 진행 후 예랑빌라 끼고 우회전 <br>
+➡ 광혜원 방향 우회전 1.5km 직진 <br>
+➡ 만승교사거리 진천 방향 좌회전 <br>
+➡ 300m 진행 후 예랑빌라 끼고 우회전 <br>
+정면 간판 보고 들어 오시면 됩니다.
+</td>
+</tr>
+</tbody>
+
+</table>
+<table id="mobile-map">
+<tbody>
+<tr>
+<td style="padding: 0;">
+
+![](/img/maps.jpg)</td></tr>
+<tr>
+<td style="padding: 20px;font-size: 1.05em">
+중부고속도로 음성IC 진출 ➡ 광혜원 방향 우회전 1.5km 직진 <br>
+➡ 만승교사거리 진천 방향 좌회전 ➡ 300m 진행 후 예랑빌라 끼고 우회전 <br>
 정면 간판 보고 들어 오시면 됩니다.
 </td>
 </tr>
@@ -95,5 +111,22 @@ highlight_shrink:
 #article-container .btn-map:active {
   background-color: #ffbfc9;
   color: #fff;
+}
+
+#article-container table img ,
+#article-container table td p,
+#article-container div.table-wrap,
+#article-container div.table-wrap + p {
+  margin: 0 auto;
+}
+@media screen and (max-width: 900px) {
+  #pc-map {
+    display: none;
+  }
+}
+@media screen and (min-width: 901px) {
+  #mobile-map {
+    display: none;
+  }
 }
 </style>
