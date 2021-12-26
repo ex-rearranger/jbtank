@@ -176,9 +176,9 @@ margin: -13px 0 -6px;
 }
 
 /* pagination */
-#pagination .pagination {
-  margin-bottom: 20px;
-}
+/*#pagination .pagination {*/
+/*  margin-bottom: 20px;*/
+/*}*/
 
 /* footer */
 #footer {
@@ -227,8 +227,8 @@ margin: -13px 0 -6px;
   padding: 50px 40px;
 }
 @media screen and (max-width: 900px) {
-  .layout > div:first-child {
-    margin-bottom: 20px;
+  #aside-content > .sticky_layout > .card-widget:first-child {
+    margin-top: 20px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -334,4 +334,38 @@ border-top: 3px dashed var(--hr-border);
 #article-container ol > li > ol > li ,
 #article-container ul > li > ol > li {
   list-style-type: lower-alpha;
+}
+
+#post div.tag_share {
+  display: none;
+}
+#post nav.pagination-post {
+  margin-top:20px;
+}
+
+@-webkit-keyframes panorama {
+    from { background-position: 0px; }
+    to { background-position: -2975px; } /* The width of the panorama image is 2975px, the panorama moves from left to right  */
+}
+
+@-moz-keyframes panorama {
+    from { background-position: 0px; }
+    to { background-position: -2975px; }
+}
+
+@keyframes panorama {
+    from { background-position: 0px; }
+    to { background-position: -2975px; }
+}
+ #panoramaView {
+ width: 100%; /* Animation Container - width and height of the display box */
+ height: 200px;
+ /*background: url(/img/homepage-banner-2.jpg) no-repeat 0 0; !* The panorama as background image *!*/
+ background: url(/img/homepage-banner-2.jpg) repeat-x; /* The as background image */
+ background-size: cover;
+   /* Animation START */
+    -webkit-animation: panorama 30s steps(800, end) infinite;  /* 18 seconds total animation time, 800 frames x 800 pixel (the width of Animation Container) = 1 frame every 1 px scrolling, infinite loop */
+    -moz-animation: panorama 30s steps(800, end) infinite;
+    animation: panorama 30s steps(800, end) infinite;
+ /* Animation END */
 }

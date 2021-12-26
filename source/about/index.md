@@ -2,7 +2,7 @@
 title: 회사 소개
 date: 2021-12-25 20:19:03
 top_img: false
-toc: false
+toc: true
 ---
 
 ## 인사말
