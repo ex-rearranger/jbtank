@@ -180,16 +180,22 @@ margin: -13px 0 -6px;
 #footer-wrap .footer_custom_text {
   text-align: left;
   color: #818181;
-  word-break: break-word;
+  word-break: keep-all;
+}
+@media screen and (max-width: 758px) {
+  #footer-wrap .footer_custom_text {
+    font-size: 14px;
+  }
 }
 #footer-wrap .footer_custom_text span {
-  white-space: nowrap;
+  white-space: break-spaces;
 }
 #footer-wrap .framework-info {
   position: absolute;
-  bottom: -10px;
-  right: 0px;
+  bottom: -17px;
+  right: -17px;
   color: #c9c9c9;
+  font-size: 13px;
 }
 #footer-wrap .framework-info a {
   color: #c9c9c9;
@@ -199,7 +205,7 @@ margin: -13px 0 -6px;
 #rightside {
   position: fixed;
   right: -28px;
-  bottom: 10px;
+  bottom: 20px;
 }
 
 /* page */
