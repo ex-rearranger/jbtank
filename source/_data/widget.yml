@@ -1,7 +1,7 @@
 top:
   - class_name: user-map
     id_name: user-map
-    name: 터미널 위치
+    name: '<a href="/map/">터미널 위치</a>'
     icon: fas fa-map-marked-alt
     order:
     html: '

@@ -821,6 +821,7 @@ css_prefix: true
 inject:
   head:
      - <link rel="stylesheet" href="/css/custom-0.0.1.css">
+     - <link rel="stylesheet" href="/css/gallery-group-0.0.1.css">
   bottom:
     # - <script src="xxxx"></script>
 
