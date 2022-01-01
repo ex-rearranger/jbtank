@@ -1,3 +1,33 @@
+/* default layout */
+.layout {
+  max-width: none;
+  margin: 0 auto;
+  padding: 20px 10px 20px 10px;
+  width: 100%;
+}
+@media screen and (min-width: 901px) {
+  .layout {
+    padding: 30px 10px 30px 10px;
+  }
+}
+@media screen and (min-width: 1281px) {
+  .layout {
+    max-width: 1250px;
+  }
+}
+@media screen and (min-width: 1501px) {
+  .layout {
+    max-width: 1650px;
+    padding: 30px 130px 30px 130px;
+  }
+}
+@media screen and (min-width: 1701px) {
+  .layout {
+    max-width: 1800px;
+  }
+}
+
+
 #page-header {
   -webkit-animation: none;
   -moz-animation: none;
@@ -165,6 +195,7 @@ margin: -13px 0 -6px;
   color: var(--btn-color);
   text-align: center;
   line-height: 2.4;
+  font-size: 1.1em;
 }
 #sidebar #sidebar-menus .menus_items {
   padding-top: 10px;
@@ -255,6 +286,51 @@ margin: -13px 0 -6px;
 #page h1.page-title {
 margin: -12px 0 15px;
 }
+
+/* page - homepage */
+#recent-posts > .recent-post-item {
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -o-box-orient: horizontal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  height: 15em;
+}
+@media screen and (max-width: 768px) {
+  #recent-posts > .recent-post-item {
+    height: 230px;
+  }
+}
+#recent-posts > .recent-post-item .post_cover {
+  overflow: hidden;
+  width: 44%;
+  max-width: 27em;
+  height: 100%;
+}
+#recent-posts > .recent-post-item >.recent-post-info {
+  padding: 20px 40px;
+  width: 56%;
+  /*min-width: ;*/
+}
+@media screen and (max-width: 768px) {
+  #recent-posts > .recent-post-item >.recent-post-info {
+    padding: 20px 30px;
+  }
+}
+#recent-posts > .recent-post-item >.recent-post-info.no-cover {
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  #recent-posts > .recent-post-item >.recent-post-info.no-cover {
+    padding: 30px 20px;
+  }
+}
+
+#recent-posts:not(.category_ui):not(.tag_ui) #pagination {
+  display: none;
+}
+
 
 /* page - link*/
 #article-container .flink .flink-list > .flink-list-item {
@@ -377,11 +453,14 @@ border-top: 3px dashed var(--hr-border);
  width: 100%; /* Animation Container - width and height of the display box */
  height: 200px;
  /*background: url(/img/homepage-banner-2.jpg) no-repeat 0 0; !* The panorama as background image *!*/
- background: url(/img/homepage-banner-1.jpg) repeat-x; /* The as background image */
+ background: url(/img/homepage-banner-1.jpg) repeat-x;
  background-size: cover;
    /* Animation START */
-    -webkit-animation: panorama 30s steps(800, end) infinite;  /* 18 seconds total animation time, 800 frames x 800 pixel (the width of Animation Container) = 1 frame every 1 px scrolling, infinite loop */
-    -moz-animation: panorama 30s steps(800, end) infinite;
-    animation: panorama 30s steps(800, end) infinite;
+   /* -webkit-animation: panorama 30s steps(800, end) infinite;  !* 18 seconds total animation time, 800 frames x 800 pixel (the width of Animation Container) = 1 frame every 1 px scrolling, infinite loop *!*/
+   /* -moz-animation: panorama 30s steps(800, end) infinite;*/
+   /* animation: panorama 30s steps(800, end) infinite;*/
+    -webkit-animation: panorama 120s linear infinite;
+    -moz-animation: panorama 120s linear infinite;
+    animation: panorama 120s linear infinite;
  /* Animation END */
 }
