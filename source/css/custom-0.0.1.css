@@ -154,8 +154,20 @@ margin: -13px 0 -6px;
   margin-left: -1px;
 }
 
-#aside-content .card-info #card-info-btn span {
+#aside-content .card-info #card-info-btn span ,
+#sidebar #sidebar-menus #card-info-btn span {
   padding-left: 7px;
+}
+#sidebar #sidebar-menus #card-info-btn {
+  display: block;
+  margin-top: 14px;
+  background-color: var(--btn-bg);
+  color: var(--btn-color);
+  text-align: center;
+  line-height: 2.4;
+}
+#sidebar #sidebar-menus .menus_items {
+  padding-top: 10px;
 }
 
 /* kakao-map */
