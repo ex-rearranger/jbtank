@@ -435,6 +435,8 @@ border-top: 3px dashed var(--hr-border);
   margin-top:20px;
 }
 
+
+
 @-webkit-keyframes panorama {
     from { background-position: 0px; }
     to { background-position: -2975px; } /* The width of the panorama image is 2975px, the panorama moves from left to right  */
@@ -459,8 +461,8 @@ border-top: 3px dashed var(--hr-border);
    /* -webkit-animation: panorama 30s steps(800, end) infinite;  !* 18 seconds total animation time, 800 frames x 800 pixel (the width of Animation Container) = 1 frame every 1 px scrolling, infinite loop *!*/
    /* -moz-animation: panorama 30s steps(800, end) infinite;*/
    /* animation: panorama 30s steps(800, end) infinite;*/
-    -webkit-animation: panorama 120s linear infinite;
-    -moz-animation: panorama 120s linear infinite;
-    animation: panorama 120s linear infinite;
+    -webkit-animation: panorama 120s linear;
+    -moz-animation: panorama 120s linear;
+    animation: panorama 120s linear;
  /* Animation END */
 }
