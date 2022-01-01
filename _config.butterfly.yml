@@ -391,9 +391,10 @@ footer:
     enable: false
     since: 2009
   custom_text: '<span>상호 : 주식회사 중부탱크터미널 | </span><span>대표 : 이숙희 | </span><span>사업자등록번호 : 301-22-84093</span>
-  <br><span>주소 : (27811) 충청북도 진천군 광혜원면 월성안길 40 | </span><span>전화 : 043-535-6530 | </span><span>팩스 : 043-535-6540</span>
-  <br><span>이메일 : <a href="mailto:jbtk@hanmail.net" style="color:inherit">jbtk@hanmail.net</a> | </span>
-  <span>카카오톡 : <a href="https://pf.kakao.com/_Sexfbb/chat" style="color:inherit">"중부탱크터미널" 또는 아이디 "jbtank"로 검색</a></span>
+  <br><span>주소 : (27811) 충청북도 진천군 광혜원면 월성안길 40 | </span>
+  <span>전화 : <a href="tel:+82435356530">043-535-6530 | </span><span>팩스 : 043-535-6540</span>
+  <br><span>이메일 : <a href="mailto:jbtk@hanmail.net">jbtk@hanmail.net</a> | </span>
+  <span>카카오톡 : <a href="https://pf.kakao.com/_Sexfbb/chat">"중부탱크터미널"(아이디: jbtank)로 검색</a></span>
   <br>Copyright ⓒ 중부탱크터미널 All rights reserved.'
   copyright: true # Copyright of theme and framework
 
