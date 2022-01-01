@@ -46,8 +46,8 @@
 }
 #nav #blog_name #site-name img {
   height: 33px;
-  display: block;
-  /*margin-top: 3px;*/
+  display: inline-block;
+  margin-top: 13px;
 }
 #page-header.full_page:not(.nav-fixed) #nav #blog_name #site-name img {
   display: none;
@@ -67,12 +67,16 @@
   -ms-transition: -ms-transform 0.3s;
   transition: transform 0.3s;
 }
+#page-header:not(.not-top-img):before {
+  background: linear-gradient(rgba(0, 0, 0, 0.3) 80%, rgba(0, 0, 0, 0.7) 100%);
+}
 
 #page-header #scroll-down .scroll-down-effects {
-  font-size: 60px;
+  font-size: 70px;
 }
 #page-header #scroll-down {
   padding-top: 100vh;
+  bottom: 20px;
 }
 
 #content-inner {
@@ -361,7 +365,7 @@ border-top: 3px dashed var(--hr-border);
  width: 100%; /* Animation Container - width and height of the display box */
  height: 200px;
  /*background: url(/img/homepage-banner-2.jpg) no-repeat 0 0; !* The panorama as background image *!*/
- background: url(/img/homepage-banner-2.jpg) repeat-x; /* The as background image */
+ background: url(/img/homepage-banner-1.jpg) repeat-x; /* The as background image */
  background-size: cover;
    /* Animation START */
     -webkit-animation: panorama 30s steps(800, end) infinite;  /* 18 seconds total animation time, 800 frames x 800 pixel (the width of Animation Container) = 1 frame every 1 px scrolling, infinite loop */
