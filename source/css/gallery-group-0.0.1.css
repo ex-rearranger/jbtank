@@ -1,9 +1,23 @@
+@media screen and (min-width: 900px) {
+  #recent-posts {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
 #recent-posts #intro-post {
   height: auto;
   width: 100%;
-  padding: 20px 24px 24px;
   display: block;
   line-height: 1;
+  box-shadow: none;
+  padding: 0;
+}
+#recent-posts #intro-post > div {
+  margin:0 -3px;
+}
+
+#recent-posts:not(.category_ui):not(.tag_ui) #pagination {
+  display: none;
 }
 
 #intro-post figure.gallery-group {
@@ -190,4 +204,15 @@
 #intro-post .gallery-group-main {
   overflow: auto;
   padding: 0 0 16px;
+}
+
+
+/* homepage - mobile */
+@media screen and (max-width: 768px) {
+  #intro-post figure.gallery-group .gallery-group-name {
+    font-size: 3.25vw;
+  }
+  #intro-post figure.gallery-group p {
+    font-size: 2vw;
+  }
 }

@@ -392,7 +392,7 @@ footer:
     since: 2009
   custom_text: '<span>상호 : 주식회사 중부탱크터미널 | </span><span>대표 : 이숙희 | </span><span>사업자등록번호 : 301-22-84093</span>
   <br><span>주소 : (27811) 충청북도 진천군 광혜원면 월성안길 40 | </span>
-  <span>전화 : <a href="tel:+82435356530">043-535-6530 | </span><span>팩스 : 043-535-6540</span>
+  <span>전화 : <a href="tel:+82435356530">043-535-6530</a> | </span><span>팩스 : 043-535-6540</span>
   <br><span>이메일 : <a href="mailto:jbtk@hanmail.net">jbtk@hanmail.net</a> | </span>
   <span>카카오톡 : <a href="https://pf.kakao.com/_Sexfbb/chat">"중부탱크터미널"(아이디: jbtank)로 검색</a></span>
   <br>Copyright ⓒ 중부탱크터미널 All rights reserved.'
@@ -453,20 +453,20 @@ site_verification:
 # Theme color for customize
 # Notice: color value must in double quotes like "#000" or may cause error!
 
- theme_color:
-   enable: true
-   main: "#1A3F9D" #"#49B1F5"
-#   paginator: "#00c4b6"
-#   button_hover: "#FF7242"
-#   text_selection: "#00c4b6"
-#   link_color: "#99a9bf"
-#   meta_color: "#858585"
-#   hr_color: "#A4D8FA"
-#   code_foreground: "#F47466"
-#   code_background: "rgba(27, 31, 35, .05)"
-#   toc_color: "#00c4b6"
-   blockquote_padding_color: "#1A3F9D" #"#49B1F5"
-   blockquote_background_color: "#1A3F9D" #"#49B1F5"
+theme_color:
+  enable: true
+  main: "#437cec" #"#49B1F5"
+#  paginator: "#00c4b6"
+  button_hover: "#ff6d59" # "#FF7242"
+#  text_selection: "#00c4b6"
+#  link_color: "#99a9bf"
+#  meta_color: "#858585"
+#  hr_color: "#A4D8FA"
+#  code_foreground: "#F47466"
+#  code_background: "rgba(27, 31, 35, .05)"
+#  toc_color: "#00c4b6"
+  blockquote_padding_color: "#437cec" #"#49B1F5"
+  blockquote_background_color: "#437cec" #"#49B1F5"
 
 # The top_img settings of home page
 # default: top img - full screen, site info - middle (默認top_img全屏，site_info在中間)
@@ -562,7 +562,7 @@ beautify:
   enable: true
   field: site # site/post
   title-prefix-icon: '\f48b'
-  title-prefix-icon-color: '#ff7242'
+  title-prefix-icon-color: '#ff6d59' # '#ff7242'
 
 # Global font settings
 # Don't modify the following settings unless you know how they work (非必要不要修改)
@@ -777,8 +777,8 @@ aplayerInject:
 snackbar:
   enable: true
   position: top-center
-  bg_light: '#49b1f5' # The background color of Toast Notification in light mode
-  bg_dark: '#121212' # The background color of Toast Notification in dark mode
+  bg_light: '#ff6d59' # '#49b1f5' # The background color of Toast Notification in light mode
+  bg_dark: '#ff6d59' #'#121212' # The background color of Toast Notification in dark mode
 
 # https://instant.page/
 # prefetch (預加載)
