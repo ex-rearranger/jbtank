@@ -3,6 +3,7 @@
 # --------------------------------------
 
 menu:
+  화주재고 확인: http://www.hinetsoft.com/jbtank.php || fas fa-box
   회사소개: /about/ || fas fa-info-circle
   시설 및 서비스: /service/ || fas fa-truck
   오시는길: /map/ || fas fa-map-marker-alt
@@ -390,7 +391,7 @@ footer:
   owner:
     enable: false
     since: 2009
-  custom_text: '<span>상호 : 주식회사 중부탱크터미널 | </span><span>대표 : 이숙희 | </span><span>사업자등록번호 : 301-22-84093</span>
+  custom_text: '<span>상호 : 주식회사 중부탱크터미널 | </span><span>대표 : 이숙희 | </span><span>사업자등록번호 : 367-88-01201</span>
   <br><span>주소 : (27811) 충청북도 진천군 광혜원면 월성안길 40 | </span>
   <span>전화 : <a href="tel:+82435356530">043-535-6530</a> | </span><span>팩스 : 043-535-6540</span>
   <br><span>이메일 : <a href="mailto:jbtk@hanmail.net">jbtk@hanmail.net</a> | </span>
