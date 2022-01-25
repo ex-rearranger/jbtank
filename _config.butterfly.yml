@@ -3,12 +3,12 @@
 # --------------------------------------
 
 menu:
-  화주재고 확인: http://www.hinetsoft.com/jbtank.php || fas fa-box
   회사소개: /about/ || fas fa-info-circle
   시설 및 서비스: /service/ || fas fa-truck
   오시는길: /map/ || fas fa-map-marker-alt
-  공지사항: /archives/ || fas fa-exclamation-circle
+  화주재고 확인: http://www.hinetsoft.com/jbtank.php || fas fa-box
   기타:
+    공지사항: /archives/ || fas fa-exclamation-circle
     갤러리: /gallery/ || fas fa-images
     관련사이트: /link/ || fas fa-link
 
@@ -167,6 +167,10 @@ index_post_content:
   method: 2
   length: 500 # if you set method to 2 or 3, the length need to config
 
+# anchor
+# when you scroll in post, the URL will update according to header id.
+anchor: false
+
 # Post
 # --------------------------------------
 
@@ -175,6 +179,7 @@ toc:
   post: true
   page: false
   number: true
+  expand: false
   style_simple: false # for post
 
 post_copyright:
@@ -218,10 +223,6 @@ photofigcaption: false
 # false: disable pagination
 post_pagination: 2
 
-# anchor
-# when you scroll in post, the URL will update according to header id.
-anchor: false
-
 # Displays outdated notice for a post (文章過期提醒)
 noticeOutdate:
   enable: false
@@ -257,10 +258,8 @@ addtoany:
 
 comments:
   # Up to two comments system, the first will be shown as default
-  # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo
-  use:
-  # - Valine
-  # - Disqus
+  # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus
+  use: # Valine,Disqus
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
@@ -312,8 +311,6 @@ valine:
 # https://waline.js.org/
 waline:
   serverURL: # Waline server address url
-  avatar: monsterid # gravatar style https://zh-tw.gravatar.com/site/implement/images/#default-image
-  avatarCDN: # Gravatar CDN baseURL
   bg: # waline background
   visitor: false
   option:
@@ -343,6 +340,17 @@ twikoo:
   envId:
   region:
   visitor: false
+  option:
+
+# Giscus
+# https://giscus.app/
+giscus:
+  repo:
+  repo_id:
+  category_id:
+  theme:
+    light: light
+    dark: dark
   option:
 
 # Chat Services
@@ -468,6 +476,7 @@ theme_color:
 #  toc_color: "#00c4b6"
   blockquote_padding_color: "#437cec" #"#49B1F5"
   blockquote_background_color: "#437cec" #"#49B1F5"
+#   scrollbar_color: "#49b1f5"
 
 # The top_img settings of home page
 # default: top img - full screen, site info - middle (默認top_img全屏，site_info在中間)
@@ -592,12 +601,10 @@ subtitle:
   effect: true
   # loop (循環打字)
   loop: true
-  # source調用第三方服務
-  # source: false 關閉調用
-  # source: 1  調用搏天 api 的隨機語錄（簡體）
-  # source: 2  調用一言網的一句話（簡體）
-  # source: 3  調用一句網（簡體）
-  # source: 4  調用今日詩詞（簡體）
+  # source 調用第三方服務
+  # source: 1  調用一言網的一句話（簡體） https://hitokoto.cn/
+  # source: 2  調用一句網（簡體） http://yijuzhan.com/
+  # source: 3  調用今日詩詞（簡體） https://www.jinrishici.com/
   # subtitle 會先顯示 source , 再顯示 sub 的內容
   source: false
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
@@ -842,12 +849,14 @@ CDN:
   # comments
   gitalk:
   gitalk_css:
+  blueimp_md5:
   valine:
   disqusjs:
   disqusjs_css:
   utterances:
   twikoo:
   waline:
+  giscus:
 
   # share
   addtoany:
