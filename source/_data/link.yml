@@ -4,23 +4,23 @@
     - name: 한국화학물질관리협회
       link: http://www.kcma.or.kr/main/main.asp
       avatar: http://www.kcma.or.kr/images/inc/logo.svg
-      descr:
+      descr: ""
     - name: 소방청
       link: https://www.nfa.go.kr/nfa/
       avatar: https://www.nfa.go.kr/nfa/common/images/common/logo.jpg
-      descr:
+      descr: ""
     - name: 국토교통부
       link: http://www.molit.go.kr/portal.do
       avatar: http://www.molit.go.kr/images/www2021/logo/logo.png
-      descr:
+      descr: ""
     - name: 환경부
       link: http://me.go.kr/home/web/main.do
       avatar: http://me.go.kr/images/home/main/2018/logo.png
-      descr:
+      descr: ""
     - name: 국가교통정보센터
       link: https://www.its.go.kr/map/main
       avatar: https://www.its.go.kr/css/images/common/logo-86064063004ad212872363cceedddafa.png
-      descr:
+      descr: ""
 
 
 #- class_name: test link

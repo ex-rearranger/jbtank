@@ -27,11 +27,11 @@ highlight_shrink:
 
 ![](/img/maps.jpg)</td>
 <td style="padding: 20px;font-size: 1.05em">
-중부고속도로 대소IC 진출 <br>
-➡ 광혜원 방향 우회전 1.5km 직진 <br>
-➡ 만승교사거리 진천 방향 좌회전 <br>
-➡ 300m 진행 후 예랑빌라 끼고 우회전 <br>
-정면 간판 보고 들어 오시면 됩니다.
+<span style="word-break: keep-all; display: inline-block;">중부고속도로 대소IC 진출</span>
+<span style="word-break: keep-all; display: inline-block;">➜ 광혜원 방향 우회전 1.5km 직진</span>
+<span style="word-break: keep-all; display: inline-block;">➜ 만승교사거리 진천 방향 좌회전</span>
+<span style="word-break: keep-all; display: inline-block;">➜ 300m 진행 후 예랑빌라 끼고 우회전</span>
+<span style="word-break: keep-all; display: inline-block;">➜ 정면 간판 보고 들어 오시면 됩니다.</span>
 </td>
 </tr>
 </tbody>
@@ -45,9 +45,11 @@ highlight_shrink:
 ![](/img/maps.jpg)</td></tr>
 <tr>
 <td style="padding: 20px;font-size: 1.05em">
-중부고속도로 대소IC 진출 ➡ 광혜원 방향 우회전 1.5km 직진 <br>
-➡ 만승교사거리 진천 방향 좌회전 ➡ 300m 진행 후 예랑빌라 끼고 우회전 <br>
-정면 간판 보고 들어 오시면 됩니다.
+<span style="word-break: keep-all; display: inline-block;">중부고속도로 대소IC 진출</span>
+<span style="word-break: keep-all; display: inline-block;">➜ 광혜원 방향 우회전 1.5km 직진</span>
+<span style="word-break: keep-all; display: inline-block;">➜ 만승교사거리 진천 방향 좌회전</span>
+<span style="word-break: keep-all; display: inline-block;">➜ 300m 진행 후 예랑빌라 끼고 우회전</span>
+<span style="word-break: keep-all; display: inline-block;">➜ 정면 간판 보고 들어 오시면 됩니다.</span>
 </td>
 </tr>
 </tbody>

@@ -81,7 +81,7 @@ favicon: /img/jbtank-favicon-128.png
 
 # Avatar (頭像)
 avatar:
-  img: /img/jbtank-logo-220px.png
+  img: /img/jbtank-logo-ogimage.png
   effect: false
 
 # Disable all banner image
@@ -91,7 +91,7 @@ disable_top_img: false
 index_img: /img/homepage-banner-2.jpg
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: false
+default_top_img: /img/jbtank-logo-ogimage-page.png
 
 # The banner image of archive page
 archive_img: false

@@ -168,7 +168,7 @@ a {
   }
 }
 #aside-content .card-info .avatar-img {
-  border: none;
+  border: 1px solid #eee;
 }
 .avatar-img img {
   -webkit-transition: filter 375ms ease-in 0.2s;
