@@ -19,7 +19,12 @@ top_img: false
 ![수출 출하 (22.01.10)](/img/export-cargo-shipment.jpeg)
 ![50톤 트럭스케일 계근대 (09.04.30)](/img/truckscale.jpeg)
 ![옥내저장소 401.1 m2 (09.04.28)](/img/interior-tank-storage-1.jpeg)
+![(21.12.26)](/img/KakaoTalk_Photo_2021-12-26-04-07-07-5.jpg)
+![(21.12.26)](/img/KakaoTalk_Photo_2021-12-26-04-07-07-3.jpg)
+![(21.12.26)](/img/KakaoTalk_Photo_2021-12-26-04-07-07-4.jpg)
+![(21.12.26)](/img/KakaoTalk_Photo_2021-12-26-09-12-02.jpg)
 ![중부탱크터미널 로고](/img/jbtank-logo-wide-bg.png)
+
 
 {% endgallery %}
 
