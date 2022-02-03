@@ -1,0 +1,3 @@
+[user]
+	email = pamela7384@snu.ac.kr
+	name = ex-rearranger

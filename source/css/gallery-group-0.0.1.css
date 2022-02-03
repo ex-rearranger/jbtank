@@ -241,3 +241,11 @@
     font-size: 2vw;
   }
 }
+
+/* caption */
+.fancybox__caption:before {
+  content: "⊙ ";
+}
+.fancybox__caption:after {
+  content: " ⊙";
+}
