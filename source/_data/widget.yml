@@ -7,7 +7,7 @@ top:
     order:
     html: '
     <div style="position: absolute;z-index: 2;font-weight: 700;padding: 5px 10px; font-size: 13px;
-      background: #eeeeeecc; border: solid 1px #cccccccc;min-width: 152px;max-width: 75%;word-break: keep-all;line-height: 1.4;">중부고속도로 음성IC 5분 거리</div>
+      background: #eeeeeecc; border: solid 1px #cccccccc;min-width: 152px;max-width: 75%;word-break: keep-all;line-height: 1.4;">중부고속도로 대소IC 5분 거리</div>
     <div id="map" style="width:100%;height:300px;"></div>
 	<a id="kakao-link" target="_blank" rel="noopener" href="https://map.kakao.com/?itemId=8070143&q=중부탱크터미널">카카오맵에서 열기</a>
     <a id="naver-link" target="_blank" rel="noopener" href="https://map.naver.com/v5/entry/place/17760664">네이버 지도에서 열기</a>
