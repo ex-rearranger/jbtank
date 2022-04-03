@@ -316,6 +316,11 @@ margin: -13px 0 -6px;
   #aside-content #card-toc {
     top: 56px;
     bottom: unset;
+    -webkit-transform-origin: right top;
+    -moz-transform-origin: right top;
+    -o-transform-origin: right top;
+    -ms-transform-origin: right top;
+    transform-origin: right top;
   }
 }
 
